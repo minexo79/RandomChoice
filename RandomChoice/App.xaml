@@ -1,0 +1,14 @@
+﻿<Application x:Class="RandomChoice.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:RandomChoice"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Padding" Value="20" />
+            <Setter Property="Margin" Value="3, 5, 3, 5" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="FontSize" Value="30" />
+        </Style>
+    </Application.Resources>
+</Application>
